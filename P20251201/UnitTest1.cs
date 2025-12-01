@@ -1,4 +1,6 @@
-﻿namespace P20251201
+﻿using NUnit.Framework.Legacy;
+
+namespace P20251201
 {
     public class Tests
     {
@@ -10,7 +12,8 @@
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            //Assert.Pass();
+            StringAssert.Contains("@","Pelda@valami.hu");
         }
     }
 }
